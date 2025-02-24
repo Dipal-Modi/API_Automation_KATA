@@ -5,8 +5,7 @@
 1. It generates Extent report with all the step details. Report will be generated both HTML & PDF file format.
 2. Generates execution logs, with detailed request and response details.
 3. Feature file has examples of reading request details from json file.
-4. This also has an example to validate response body using json schema.
-5. Easy integration to CI/CD pipeline.
+4. Easy integration to CI/CD pipeline.
 
 ## **Required Setup :**
 
