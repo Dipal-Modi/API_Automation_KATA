@@ -1,0 +1,58 @@
+{
+	"CreateBooking": {
+		"depositpaid": false,
+		"firstname": "asdfdsf",
+		"lastname": "sdfdsf",
+		"roomid": 15,
+		"email": "sdsfsdf@ghmail.com",
+		"phone": "12345678901",
+		"bookingdates": {
+			"checkin": "2025-03-10",
+			"checkout": "2025-03-12"
+		}
+	},
+	"UserWithMandParamOnly": {
+		"firstname": "test",
+		"lastname": "user",
+		"depositpaid": true,
+		"email": "test@user.com",
+		"phone": "12345678911",
+		"bookingdates": {
+			"checkin": "2025-04-24",
+			"checkout": "2025-04-24"
+		}
+	},
+	"InvalidPhoneNumberUser": {
+		"firstname": "test",
+		"lastname": "user",
+		"depositpaid": true,
+		"email": "test@user.com",
+		"phone": "123456789112345678912345",
+		"bookingdates": {
+			"checkin": "2025-04-24",
+			"checkout": "2025-04-24"
+		}
+	},
+	"InvalidFirstName": {
+		"firstname": "testUserNameIsMoreThan18Charc",
+		"lastname": "user",
+		"depositpaid": true,
+		"email": "test@user.com",
+		"phone": "12345678911",
+		"bookingdates": {
+			"checkin": "2025-04-24",
+			"checkout": "2025-04-24"
+		}
+	},
+	"InvalidLastName": {
+		"firstname": "test",
+		"lastname": "us",
+		"depositpaid": true,
+		"email": "test@user.com",
+		"phone": "12345678911",
+		"bookingdates": {
+			"checkin": "2025-04-24",
+			"checkout": "2025-04-24"
+		}
+	}
+}
