@@ -20,6 +20,8 @@ Run the below Maven command.
 
     mvn clean test
 
+Please change the "roomid" value from bookinBody.json file "CreateBooking" user data everytime when you run the @happy flow 
+
 
 Once the execution completes report & log will be generated in below folder.
 

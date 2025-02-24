@@ -1,6 +1,6 @@
 package com.api.model;
 
-public class BookingDates {
+public class BookingDatesDTO {
     public String checkin;
     public String checkout;
 
